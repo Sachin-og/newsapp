@@ -24,7 +24,7 @@ export class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/News-App">
+                <Link className="nav-link active" aria-current="page" to="/newsapp">
                   Home
                 </Link>
               </li>
@@ -32,7 +32,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/business"
+                  to="newsapp/business"
                 >
                   Business
                 </Link>
@@ -41,7 +41,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/entertainment"
+                  to="newsapp/entertainment"
                 >
                   Entertainment
                 </Link>
@@ -50,7 +50,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/general"
+                  to="newsapp/general"
                 >
                   General
                 </Link>
@@ -59,7 +59,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/health"
+                  to="newsapp/health"
                 >
                   Health
                 </Link>
@@ -68,7 +68,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/science"
+                  to="newsapp/science"
                 >
                   Science
                 </Link>
@@ -77,7 +77,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/sports"
+                  to="newsapp/sports"
                 >
                   Sports
                 </Link>
@@ -86,7 +86,7 @@ export class Navbar extends Component {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="News-App/technology"
+                  to="newsapp/technology"
                 >
                   Technology
                 </Link>
