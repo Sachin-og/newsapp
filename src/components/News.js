@@ -70,7 +70,7 @@ export class News extends Component {
 
   render() {
     return (
-      <>
+      <div style ={{marginTop : "5rem"}}>
         <h1 className="text-center my-5">
           NewsMonkey - Top {this.capitalize(this.props.category)} Headlines
         </h1>
@@ -110,7 +110,7 @@ export class News extends Component {
             
           </div>
         </InfiniteScroll>
-        </>
+        </div>
     );
   }
 }
