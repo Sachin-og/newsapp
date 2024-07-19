@@ -32,7 +32,7 @@ export class News extends Component {
   }
   async updateNews() {
     this.props.setProgress(10);
-    let url = `http://localhost:5000/news?country=${this.props.country}&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
+    let url = `https://myserver-etbg.onrender.com/news?country=${this.props.country}&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
     this.setState({ loading: true });
     this.props.setProgress(30);
     let data = await fetch(url);
@@ -51,7 +51,7 @@ export class News extends Component {
     this.setState({
       page: this.state.page + 1,
     });
-    let url = `http://localhost:5000/news?country=${this.props.country}&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
+    let url = `https://myserver-etbg.onrender.com/news?country=${this.props.country}&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
